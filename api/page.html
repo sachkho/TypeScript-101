@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Météo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #89CFF0, #FFFFFF);
+            color: #333;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 50px;
+        }
+
+        #search-form {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 50px;
+        }
+
+        #city {
+            flex-grow: 1;
+            padding: 10px;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            background-color: #89CFF0;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #6AAECF;
+        }
+
+        #weather {
+            background-color: #F0F8FF;
+            padding: 20px;
+            border-radius: 5px;
+        }
+    </style>
+    <script src="out/main.js"></script>
+</head>
+<body>
+    <h1>Données météorologiques</h1>
+    <form id="search-form">
+        <input type="search" id="city" placeholder="Entrez le nom d'une ville">
+        <button type="submit">Rechercher</button>
+    </form>
+    <div id="weather"></div>
+</body>
+</html>
