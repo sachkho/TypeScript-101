@@ -1,0 +1,2 @@
+La transpilation permet de créer un fichier en JavaScript à partir d'un TypeScript.
+le typage fort dans TypeScript apporte des avantages de détection d'erreurs, de documentation du code, ce qui peut rendre le code plus fiable et plus facile à maintenir.

@@ -1,0 +1,7 @@
+Une classe abstraite permet d'avoir une méthode abstraite en commun.
+On ne peut pas créer de nouvel élement de cette classe, pour cela il faut passer par une classe fille de cette classe abstraite.
+Un exemple permet de mieux comprendre : 
+Si on crée un jeu vidéo avec des animaux dedans notemment des lions et des gazelles.
+Les lions et les gazelles auront des propriétés (ici des méthodes) en commun qui seront regroupées dans la classe abstraite pour pas encombrer.
+De plus on utilise pour cela une classe abstraite et non une simple classe pour aps que l'on puisse créer juste un "animal" car cela n'a pas de sens,
+On veut pouvoir plutôt créer des animaux spécifiques : lions, gazelles...

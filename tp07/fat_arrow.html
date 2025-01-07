@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>fat_arrow</title>
+  </head>
+  <body>
+    <script>
+      const somme = (a, b) => a + b;
+      const difference = (a, b) => a - b;
+      const multiplication = (a, b) => a * b;
+      const division = (a, b) => a / b;
+      const calculatrice =(a, b, operation) =>{
+        switch(operation){
+            case "addition":
+                console.log("la somme vaut ",somme(a,b))
+                break;
+            case "soustraction":
+                console.log("la différence vaut ",difference(a,b))
+                break;
+            case "multiplication":
+                console.log("la multiplication vaut ",multiplication(a,b))
+                break;
+            case "division":
+                console.log("la division est ",division(a,b))
+                break;
+            default:
+                console.log("veuillez entrer une opération valide");
+        }
+      }
+    calculatrice(5, 5, "addition");
+    </script>
+  </body>
