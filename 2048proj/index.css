@@ -1,0 +1,30 @@
+.titre01 {
+    color : red;
+    text-align: center;
+}
+
+table {
+    border: 1px solid black;
+    margin : 0 auto;
+}
+
+td {
+    border: 1px solid black;
+    width: 120px;
+    height: 120px;
+    overflow: hidden; /* ajoutez cette ligne */
+    text-overflow: ellipsis;
+    text-align: center; /* ajoutez cette ligne si vous voulez que le texte trop long soit tronqué avec des points de suspension */
+    
+}
+
+
+
+
+
+
+
+
+
+
+
